@@ -10,7 +10,7 @@ The model takes in a sequence of **5 words** and predicts the **next most probab
 
 ---
 
-## 📁 Dataset
+### 📁 Dataset
 
 The model is trained on text from Project Gutenberg's The Adventures of Sherlock Holmes, by Arthur Conan Doyle.
 
@@ -18,7 +18,7 @@ The model is trained on text from Project Gutenberg's The Adventures of Sherlock
 
 ---
 
-## 🏗️ Model Architecture
+### 🏗️ Model Architecture
 
 - **Input Shape:** (5 words, one-hot encoded vector)
 - **Layers:**
@@ -31,7 +31,7 @@ The model is trained on text from Project Gutenberg's The Adventures of Sherlock
 
 ---
 
-## 🛠️ Installation
+### 🛠️ Installation
 
 1. Clone the repository:
    ```python
@@ -42,14 +42,16 @@ The model is trained on text from Project Gutenberg's The Adventures of Sherlock
    ```python
    pip install numpy nltk matplotlib tensorflow
 
-3. Download the text file given below and update the path:
-   [File](https://drive.google.com/file/d/1GeUzNVqiixXHnTl8oNiQ2W3CynX_lsu2/view?usp=sharing)
+3. Download the text file given and update the path:
+   
+   [Text File](https://drive.google.com/file/d/1GeUzNVqiixXHnTl8oNiQ2W3CynX_lsu2/view?usp=sharing)
+   
    ```python
    path = r"C:\Users\YourName\Downloads\1661-0.txt"
 
 ---
 
-## ▶️ How to Run
+### ▶️ How to Run
 1. Train the model:
    ```python
    python next_word_predictor.py
@@ -66,14 +68,14 @@ The model is trained on text from Project Gutenberg's The Adventures of Sherlock
 
 ---
 
-## 📊 Output
-The script also plots training and validation accuracy/loss:
-Accuracy over epochs
-Loss over epochs
+### 📊 Output
+The script also plots training and validation accuracy/loss:  
+- Accuracy over epochs  
+- Loss over epochs
 
 ---
 
-##💡 Sample Predictions
+### 💡Sample Predictions
   ![Screenshot 2025-06-14 203424](https://github.com/user-attachments/assets/b4dab4f7-b456-4eee-ac2a-d98df688b278)
 
 
